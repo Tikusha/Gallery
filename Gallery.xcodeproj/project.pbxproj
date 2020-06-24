@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AC0F8E3C24A3AC48007DA78A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F8E3B24A3AC48007DA78A /* AppDelegate.swift */; };
-		AC0F8E3E24A3AC48007DA78A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F8E3D24A3AC48007DA78A /* SceneDelegate.swift */; };
 		AC0F8E4024A3AC48007DA78A /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F8E3F24A3AC48007DA78A /* PictureViewController.swift */; };
 		AC0F8E4324A3AC48007DA78A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0F8E4124A3AC48007DA78A /* Main.storyboard */; };
 		AC0F8E4524A3AC4C007DA78A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0F8E4424A3AC4C007DA78A /* Assets.xcassets */; };
@@ -22,7 +21,6 @@
 /* Begin PBXFileReference section */
 		AC0F8E3824A3AC48007DA78A /* Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0F8E3B24A3AC48007DA78A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC0F8E3D24A3AC48007DA78A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AC0F8E3F24A3AC48007DA78A /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		AC0F8E4224A3AC48007DA78A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC0F8E4424A3AC4C007DA78A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 			children = (
 				AC0F8E5124A3AD19007DA78A /* Cell */,
 				AC0F8E3B24A3AC48007DA78A /* AppDelegate.swift */,
-				AC0F8E3D24A3AC48007DA78A /* SceneDelegate.swift */,
 				AC0F8E3F24A3AC48007DA78A /* PictureViewController.swift */,
 				AC0F8E4124A3AC48007DA78A /* Main.storyboard */,
 				AC0F8E4424A3AC4C007DA78A /* Assets.xcassets */,
@@ -163,7 +160,6 @@
 				AC0F8E4024A3AC48007DA78A /* PictureViewController.swift in Sources */,
 				AC0F8E5324A3AD37007DA78A /* PictureCell.swift in Sources */,
 				AC0F8E3C24A3AC48007DA78A /* AppDelegate.swift in Sources */,
-				AC0F8E3E24A3AC48007DA78A /* SceneDelegate.swift in Sources */,
 				AC0F8E5724A3C1C9007DA78A /* GalleryViewMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
