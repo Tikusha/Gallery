@@ -13,9 +13,16 @@ class PictureViewerViewController: UIViewController {
     @IBOutlet private weak var collectionView: UICollectionView!
     
     var picturesList: [UIImage] = []
+    var indexPath: IndexPath?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        if let indexPath = self.indexPath {
+            self.collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
+        }
     }
 }
 
@@ -28,5 +35,12 @@ extension PictureViewerViewController: UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? PictureViewerCell
         cell?.pictureImageView.image = self.picturesList[indexPath.row]
         return cell!
+    }
+}
+
+extension PictureViewerViewController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        collectionView.frame.size
+        
     }
 }

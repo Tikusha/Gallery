@@ -32,7 +32,7 @@ class PictureViewController: UIViewController {
         UIImage(named: "image\((1...5).randomElement() ?? 1)"),
         UIImage(named: "image\((1...5).randomElement() ?? 1)"),
         UIImage(named: "image\((1...5).randomElement() ?? 1)")
-    ]
+        ].compactMap { $0 }
     
     
     override func viewDidLoad() {
@@ -94,16 +94,9 @@ extension PictureViewController: UICollectionViewDelegate {
         switch galleryViewMode {
         case .standard:
             collectionView.deselectItem(at: indexPath, animated: true)
-            
-            var list: [UIImage] = []
-            for i in self.pictureCollection {
-                if let item = i {
-                    list.append(item)
-                }
-            }
-            
             if let vc = storyboard.instantiateViewController(identifier: "PictureViewerViewController") as? PictureViewerViewController {
-                vc.picturesList.append(contentsOf: list)
+                vc.picturesList = self.pictureCollection
+                vc.indexPath = indexPath
                 self.navigationController?.pushViewController(vc, animated: true)
             }
         case.select:
