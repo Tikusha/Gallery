@@ -16,6 +16,7 @@
 		AC0F8E5324A3AD37007DA78A /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F8E5224A3AD37007DA78A /* PictureCell.swift */; };
 		AC0F8E5524A3B2E4007DA78A /* PictureViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F8E5424A3B2E4007DA78A /* PictureViewerViewController.swift */; };
 		AC0F8E5724A3C1C9007DA78A /* GalleryViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F8E5624A3C1C9007DA78A /* GalleryViewMode.swift */; };
+		AC28A65B24ACAC5C0081FB69 /* PictureViewerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC28A65A24ACAC5C0081FB69 /* PictureViewerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AC0F8E5224A3AD37007DA78A /* PictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCell.swift; sourceTree = "<group>"; };
 		AC0F8E5424A3B2E4007DA78A /* PictureViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewerViewController.swift; sourceTree = "<group>"; };
 		AC0F8E5624A3C1C9007DA78A /* GalleryViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewMode.swift; sourceTree = "<group>"; };
+		AC28A65A24ACAC5C0081FB69 /* PictureViewerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				AC0F8E5224A3AD37007DA78A /* PictureCell.swift */,
+				AC28A65A24ACAC5C0081FB69 /* PictureViewerCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				AC0F8E5324A3AD37007DA78A /* PictureCell.swift in Sources */,
 				AC0F8E3C24A3AC48007DA78A /* AppDelegate.swift in Sources */,
 				AC0F8E5724A3C1C9007DA78A /* GalleryViewMode.swift in Sources */,
+				AC28A65B24ACAC5C0081FB69 /* PictureViewerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
