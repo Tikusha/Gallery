@@ -73,6 +73,7 @@ class PictureViewController: UIViewController {
         }
         collectionView.deleteItems(at: self.picturesIndexPath)
         self.picturesIndexPath.removeAll()
+        self.selectedPicture = [:]
     }
 }
 

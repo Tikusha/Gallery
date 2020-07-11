@@ -41,6 +41,5 @@ extension PictureViewerViewController: UICollectionViewDataSource {
 extension PictureViewerViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         collectionView.frame.size
-        
     }
 }
